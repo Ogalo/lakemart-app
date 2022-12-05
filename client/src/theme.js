@@ -51,18 +51,18 @@ export const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Arial", "sans-serif"].join(","),
+    fontFamily: ["Source Sans", "sans-serif"].join(","),
     fontSize: 11,
     h1: {
-      fontFamily: ["Roboto", "sans-serif"].join(","),
+      fontFamily: ["Source Sans", "sans-serif"].join(","),
       fontSize: 48,
     },
     h2: {
-      fontFamily: ["Roboto", "sans-serif"].join(","),
+      fontFamily: ["Source Sans", "sans-serif"].join(","),
       fontSize: 36,
     },
     h3: {
-      fontFamily: ["Roboto", "sans-serif"].join(","),
+      fontFamily: ["Source Sans", "sans-serif"].join(","),
       fontSize: 20,
     },
     h4: {

@@ -73,7 +73,7 @@ const AddressForm = ({
       <TextField
         fullWidth
         type="text"
-        label="Street Address"
+        label="Location Address"
         onBlur={handleBlur}
         onChange={handleChange}
         value={values.street1}
@@ -85,7 +85,7 @@ const AddressForm = ({
       <TextField
         fullWidth
         type="text"
-        label="Street Address 2 (optional)"
+        label="Alternative location (optional)"
         onBlur={handleBlur}
         onChange={handleChange}
         value={values.street2}
@@ -97,7 +97,7 @@ const AddressForm = ({
       <TextField
         fullWidth
         type="text"
-        label="City"
+        label="County"
         onBlur={handleBlur}
         onChange={handleChange}
         value={values.city}
@@ -106,7 +106,7 @@ const AddressForm = ({
         helperText={formattedHelper("city")}
         sx={{ gridColumn: "span 2" }}
       />
-      <TextField
+      {/* <TextField
         fullWidth
         type="text"
         label="State"
@@ -117,8 +117,8 @@ const AddressForm = ({
         error={formattedError("state")}
         helperText={formattedHelper("state")}
         sx={{ gridColumn: "1fr" }}
-      />
-      <TextField
+      /> */}
+      {/* <TextField
         fullWidth
         type="text"
         label="Zip Code"
@@ -129,7 +129,7 @@ const AddressForm = ({
         error={formattedError("zipCode")}
         helperText={formattedHelper("zipCode")}
         sx={{ gridColumn: "1fr" }}
-      />
+      /> */}
     </Box>
   );
 };

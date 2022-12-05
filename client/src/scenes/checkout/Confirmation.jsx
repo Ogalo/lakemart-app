@@ -8,7 +8,7 @@ const Confirmation = () => {
       <Alert severity="success">
         <AlertTitle>Success</AlertTitle>
         You have successfully made an Order —{" "}
-        <strong>Congrats on Making your Purchase</strong>
+        <strong>Thanks on Making a purchase with us</strong>
       </Alert>
     </Box>
   );

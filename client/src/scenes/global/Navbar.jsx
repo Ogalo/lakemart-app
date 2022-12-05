@@ -6,6 +6,7 @@ import {
   MenuOutlined,
   SearchOutlined,
 } from "@mui/icons-material";
+import Logo from '../../assets/strapi-images/Lakemart Logo 350px by 100px no background.png'
 import { useNavigate } from "react-router-dom";
 import { shades } from "../../theme";
 import { setIsCartOpen } from "../../state";
@@ -20,7 +21,7 @@ function Navbar() {
       display="flex"
       alignItems="center"
       width="100%"
-      height="60px"
+      height="100px"
       backgroundColor="rgba(255, 255, 255, 0.95)"
       color="black"
       position="fixed"
@@ -36,11 +37,15 @@ function Navbar() {
         alignItems="center"
       >
         <Box
+          margin-left = '30px'
           onClick={() => navigate("/")}
           sx={{ "&:hover": { cursor: "pointer" } }}
-          color={shades.secondary[500]}
+          color={shades.primary[600]}
         >
-          ECOMMER
+          <img
+          alt="logo"
+          src={Logo}
+          />
         </Box>
         <Box
           display="flex"
