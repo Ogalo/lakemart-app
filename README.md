@@ -1,4 +1,4 @@
 # React Ecommerce App
 
-Completed React Ecommerce App Repo
+Completed LakeMart Ecommerce App Repo
 
